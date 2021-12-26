@@ -21,29 +21,27 @@ const Sidebar = () => {
         </div>
       </a>
       <figure className="sidebar__social-icon">
-        <a href="">
+        <a href="#">
           <img src={facebook} alt="facebook" className="sidebar__icon" />
         </a>
-        <a href="">
+        <a href="#">
           <img src={instagram} alt="linkedin" className="sidebar__icon" />
         </a>
       </figure>
       <div className="sidebar__contact">
         <div className="sidebar__item sidebar__github">
-          <a href="">
+          <a href="#">
             <img src={github} alt="github" className="sidebar__icon" />
           </a>
         </div>
         <div className="sidebar__location">
           <img src={pin} alt="location" className="sidebar__icon mr-3" />
-          Kolkata, India
+          Mahendranagar,Nepal
         </div>
         <div className="sidebar__item">deependra.we@gmail.com</div>
         <div className="sidebar__item">+9779810653921</div>
       </div>
-      <div className="sidebar__item sidebar__email">
-        email me
-      </div>
+      <div className="sidebar__item sidebar__email">email me</div>
     </div>
   );
 };
