@@ -11,7 +11,7 @@ const Portfolio: React.FC = () => {
     <div className="min-h-screen bg-background text-foreground relative overflow-hidden">
       <MatrixBackground />
       <TerminalHeader onAPIStatus={setApiStatus} />
-      <Header />
+      <Header onAPIStatus={setApiStatus} />
     </div>
   );
 };
