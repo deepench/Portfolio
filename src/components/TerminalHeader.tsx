@@ -36,7 +36,7 @@ const TerminalHeader: React.FC<TerminalHeaderProps> = ({ onAPIStatus }) => {
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-2">
             <Terminal className="w-4 h-4 text-terminal-green" />
-            <span className="text-terminal-green">alex@backend-dev</span>
+            <span className="text-terminal-green">deepen</span>
             <span className="text-muted-foreground">:</span>
             <span className="text-terminal-cyan">~/portfolio</span>
             <span className="text-terminal-yellow">$</span>
